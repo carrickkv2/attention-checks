@@ -1,0 +1,16 @@
+{
+  "name": "attention-checks",
+  "version": "0.1.0",
+  "description": "Find the instructions hidden in job postings: requirements for the applicant, traps for AI tools, and prompt injections.",
+  "main": "src/index.js",
+  "bin": {
+    "attention-checks": "bin/attention-checks.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

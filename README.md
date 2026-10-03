@@ -9,7 +9,7 @@ If you build an AI job-application tool, these checks cause two problems:
 - **You lose real jobs.** To a prompt-injection classifier, an instruction to the applicant looks just like an attack, so the listing gets dropped.
 - **You fail the check.** If your tool doesn't notice the instruction, it writes a polished answer that skips it.
 
-Either way, your user never finds out why they didn't hear back.
+Because of this, your user never finds out why they didn't hear back.
 
 `attention-checks` sorts every instruction in a posting into one of three groups, so you can keep the job and give your user a checklist.
 
